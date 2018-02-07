@@ -16,6 +16,7 @@
 		055B95211FB9491100F3A369 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055B95201FB9491100F3A369 /* CoreDataStack.swift */; };
 		055B95231FB964F800F3A369 /* AddInventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055B95221FB964F800F3A369 /* AddInventoryViewController.swift */; };
 		055B95251FB9673C00F3A369 /* Inventory+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055B95241FB9673C00F3A369 /* Inventory+Extensions.swift */; };
+		C4869EAF202925260033B09D /* InventoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4869EAE202925260033B09D /* InventoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		055B95201FB9491100F3A369 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		055B95221FB964F800F3A369 /* AddInventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInventoryViewController.swift; sourceTree = "<group>"; };
 		055B95241FB9673C00F3A369 /* Inventory+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Inventory+Extensions.swift"; sourceTree = "<group>"; };
+		C4869EAE202925260033B09D /* InventoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +68,13 @@
 				055B95221FB964F800F3A369 /* AddInventoryViewController.swift */,
 				055B950D1FB932B800F3A369 /* InventoriesViewController.swift */,
 				055B95201FB9491100F3A369 /* CoreDataStack.swift */,
+				055B95241FB9673C00F3A369 /* Inventory+Extensions.swift */,
+				C4869EAE202925260033B09D /* InventoryTableViewCell.swift */,
 				055B950F1FB932B800F3A369 /* Main.storyboard */,
 				055B95151FB932B800F3A369 /* Assets.xcassets */,
 				055B95171FB932B800F3A369 /* LaunchScreen.storyboard */,
 				055B951A1FB932B800F3A369 /* Info.plist */,
 				055B95121FB932B800F3A369 /* MakeInventory.xcdatamodeld */,
-				055B95241FB9673C00F3A369 /* Inventory+Extensions.swift */,
 			);
 			path = MakeInventory;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				055B950E1FB932B800F3A369 /* InventoriesViewController.swift in Sources */,
 				055B950C1FB932B800F3A369 /* AppDelegate.swift in Sources */,
 				055B95211FB9491100F3A369 /* CoreDataStack.swift in Sources */,
+				C4869EAF202925260033B09D /* InventoryTableViewCell.swift in Sources */,
 				055B95251FB9673C00F3A369 /* Inventory+Extensions.swift in Sources */,
 				055B95231FB964F800F3A369 /* AddInventoryViewController.swift in Sources */,
 			);
